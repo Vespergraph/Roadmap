@@ -1,0 +1,36 @@
+.bg{
+    background-color: #232830;
+    align-self: center;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+a,p{
+    margin: 0px;
+    padding: 0px;
+}
+.header-style a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.header-style{
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-text{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.header-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
