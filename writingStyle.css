@@ -1,36 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css2?family=Recursive);
 .bg{
     background-color: #232830;
-    align-self: center;
-    width: 80%;
-    margin: 0 auto;
-    
-    
+    width: 80%;  
+    margin: 0 auto ;
 }
 a,p{
     margin: 0px;
     padding: 0px;
 }
+
+.header-flex{
+    height:375px;
+    padding-top: 15px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 3;
+}
+
 .header-style a{
     color: #FFFFFF;
     text-decoration: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 36px;
     
 }
 
 .header-style{
     display: flex;
-    width: 25%;
+    width: 29%;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .first-text{
     color: #FFFFFF;
-    font-size: 17px;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 200;
 }
 
-.header-flex{
+
+.logo-title{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute; /* set absolute positioning */
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex: 1;
+    flex-grow: 1;
+    
 }
+
+.logo-title img{
+    height: 155px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-title h1{
+    font-family: recursive;
+    font-style: italic;
+    font-size: 55px;
+    color: #FF7575;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+.logo-title h2{
+    font-family: Poppins;
+    font-size: 29px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.listing{
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid #4D4D4D ;
+    justify-content: space-between;
+    flex-shrink: 3;
+    margin-bottom: 20px;
+}
+
+.listing a{
+    padding-top: 10px;
+    font-family: Recursive;
+    font-style: italic;
+    font-size: 23px;
+    color: #909090;
+    text-decoration: none;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px;
+    flex-direction: column;
+    align-content: flex-start;
+
+}
+
+.card-image{
+    margin-top: 10px;
+    height:150px;
+    width: auto;
+    object-fit: contain;
+    align-self: center;
+}
+
+.card-header h2{
+   flex-wrap: wrap;
+   font-size: 19px; 
+   text-align: left;
+   margin-left: 11px;
+   margin-bottom: 15px;
+}
+
+.card-body{
+    margin-top: 0px;
+    font-size: 16px;
+    margin-left: 11px;
+    margin-bottom: 15px;
+}
+
 
